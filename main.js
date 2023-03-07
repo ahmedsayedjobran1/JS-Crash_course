@@ -1,10 +1,3 @@
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-
+const sandwich = ["peanut butter", "jelly", "bread"];
 // Only change code below this line
-const wordBlanks = myNoun + "," + myAdjective + "," + myVerb + "," + myAdverb; // Change this line
-console.log(wordBlanks);
-; // Change this line
-// Only change code above this line
+const myArray = ["Ahmed", 2, "Hassan"];
