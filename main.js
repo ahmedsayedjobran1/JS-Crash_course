@@ -4,5 +4,7 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 // Only change code below this line
-const wordBlanks = ""; // Change this line
+const wordBlanks = myNoun + "," + myAdjective + "," + myVerb + "," + myAdverb; // Change this line
+console.log(wordBlanks);
+; // Change this line
 // Only change code above this line
