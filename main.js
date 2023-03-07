@@ -1,11 +1,10 @@
-// Setup
-const outerWear = "T-Shirt";
+let processed = 0;
 
-function myOutfit() {
-    // Only change code below this line
-    let outerWear = "sweater";
-    // Only change code above this line
-    return outerWear;
+function processArg(num) {
+    return (num + 3) / 5;
 }
 
-myOutfit();
+// Only change code below this line
+processed = processArg(7);
+
+console.log(processed);
