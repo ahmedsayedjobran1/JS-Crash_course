@@ -1,22 +1,11 @@
-// Declare the myGlobal variable below this line
-let myGlobal = 10;
+// Setup
+const outerWear = "T-Shirt";
 
-function fun1() {
-    // Assign 5 to oopsGlobal here
-    oopsGlobal = 5;
+function myOutfit() {
+    // Only change code below this line
+    let outerWear = "sweater";
+    // Only change code above this line
+    return outerWear;
 }
 
-// Only change code above this line
-
-function fun2() {
-    let output = "";
-    if (typeof myGlobal != "undefined") {
-        output += `myGlobal: ${myGlobal} \n `;
-    }
-    if (typeof oopsGlobal != "undefined") {
-        output += `oopsGlobl : ${oopsGlobal}`;
-    }
-    console.log(output);
-}
-fun1();
-fun2();
+myOutfit();
