@@ -1,7 +1,8 @@
-var name = "kyle Simpson";
+var isEnrolled = true;
 
-var age;
-age = 39;
-var friends = ["Brandon", "Marc"];
-console.log(friends.length);   // it will give you 2 
-console.log(friends[1]) // it will give you marc
+if (isEnrolled) {
+    console.log("take a place please")
+}
+else {
+    console.log("you have to enrolled first");
+}
