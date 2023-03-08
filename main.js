@@ -1,11 +1,16 @@
-let Names = ["hajar", "sama", "nada", "bata", "yosra"];
-function one() {  // this is a function
-    for (let offer of Names) {
-        ham(offer) // this is a function
-    }
+let myFreinds = ["Hajar", "Nada", "Yosra", "Lyla", "Hema"];
+while (myFreinds.length > 0) {
+    let A11 = myFreinds.shift();
+    sortIt(A11);
 }
-function ham(x) {
-    let of_2 = Names[2];
-    (console.log(`${x} is my donky but ${of_2} is cool  `));
+function sortIt(x) {
+    console.log(`${x} nice to meet you it's a long time since we meet`)
 }
-one();
+
+
+// for (let i = 0; i < myFreinds.length; i++) {
+//     CheckIt(myFreinds[i]);
+// }
+// function CheckIt(x) {
+//     console.log(`hi ${x} nice to meet you`);
+// }
