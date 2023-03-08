@@ -1,16 +1,6 @@
-let student = {
-    name: "sara",
-    age: 21,
-    location: "Aswan"
+function timeRemaining(timeElapsed, end) {
+    return end - timeElapsed
 }
+var left = timeRemaining(10, 5);
 
-if (student.name === "Ahmed") {
-    into();
-}
-else {
-    console.log("Ahmed is the geniest boy in the world")
-}
-function into() {
-    console.log(`${student.name} nice to meet you age:${student.age} ${student.location}/:Aswan`);
-}
-// into();
+console.log(left);
