@@ -1,7 +1,7 @@
-console.log(typeof 42);
-console.log(typeof "kyle");
-console.log(typeof true);
-console.log(typeof undefined);
-console.log(typeof { age: 39 });
-console.log(typeof null);
-console.log(typeof [1, 3, 4]);   
+var name = "kyle Simpson";
+
+var age;
+age = 39;
+var friends = ["Brandon", "Marc"];
+console.log(friends.length);   // it will give you 2 
+console.log(friends[1]) // it will give you marc
