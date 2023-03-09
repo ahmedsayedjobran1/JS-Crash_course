@@ -1,11 +1,6 @@
-var amount = 10;
+var bank_balance = 302.13;
+var amount = 99.99;
 
-// is amount big enough?
-if (amount > 10) {			// <-- block attached to `if`
-    amount = amount * 2;
-    console.log(amount);	// 199.98
-}
-else
-{
-    console.log("good");
+if (amount < bank_balance) {
+    console.log("I want to buy this phone!");
 }
