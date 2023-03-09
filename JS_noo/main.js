@@ -1,17 +1,4 @@
-const ACCESSORY_PRICE = 9.99;
-
-var bank_balance = 302.13;
-var amount = 99.99;
-
-amount = amount * 2;
-
-// can we afford the extra purchase?
-if (amount < bank_balance) {
-    console.log("I'll take the accessory!");
-    amount = amount + ACCESSORY_PRICE;
-    console.log(`amount:${amount}`);
+for (var i = 0; i <= 9; i = i + 1) {
+    console.log(i);
 }
-// otherwise:
-else {
-    console.log("No, thanks.");
-}
+// 0 1 2 3 4 5 6 7 8 9
