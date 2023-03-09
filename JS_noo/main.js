@@ -1,10 +1,11 @@
-var TAX_RATE = 0.08;	// 8% sales tax
+var amount = 10;
 
-var amount = 99.99;
-
-amount = amount * 2;
-
-amount = amount + (amount * TAX_RATE);
-
-console.log(amount);			// 215.9784
-console.log(Number(amount.toFixed()));	// "215.98"
+// is amount big enough?
+if (amount > 10) {			// <-- block attached to `if`
+    amount = amount * 2;
+    console.log(amount);	// 199.98
+}
+else
+{
+    console.log("good");
+}
