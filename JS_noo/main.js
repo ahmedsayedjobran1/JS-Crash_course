@@ -1,7 +1,3 @@
-age = prompt(`please tell us your age`);
-
-if (age === "100") {
-    console.log("please write your age in a correct way")
-} else {
-    console.log(`your age is ${age}`)
-}
+var a = "99";
+var b = Number(a);
+console.log(b);
