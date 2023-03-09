@@ -1,11 +1,7 @@
-var amount = 99.99;
-function printAmount() {
-    console.log(amount.toFixed(2));
+function testA(num) {
+    num = num * 2 + 10;
+    return num;
 }
-
-
-printAmount(); // "99.99"
-
-amount = amount * 2;
-
-printAmount(); // "199.98"
+let students = 10;
+let Fun = students * 2;
+console.log(testA(Fun));
