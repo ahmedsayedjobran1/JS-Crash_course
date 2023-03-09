@@ -1,5 +1,7 @@
-a = 21;
+age = prompt(`please tell us your age`);
 
-b = a * 2;
-
-console.log(b);
+if (age === "100") {
+    console.log("please write your age in a correct way")
+} else {
+    console.log(`your age is ${age}`)
+}
