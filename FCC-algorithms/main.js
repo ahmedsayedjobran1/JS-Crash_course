@@ -1,26 +1,12 @@
-function checkScope() {
-    let i = 'function scope';
-    if (true) {
-        let i = "block scope";
-        console.log("block scope: ",i);
-    }
+const s = [5, 7, 2];
+function editInPlace() {
+    // Only change code below this line
 
-    console.log("function scope :",i);
-
+    // Using s = [2, 5, 7] would be invalid
+    s[0] = 2;
+    s[1] = 5;
+    s[2] = 7;
+    console.log(s);
+    // Only change code above this line
 }
-checkScope();
-
-/*
-
-function checkScope() {
-  let i = 'function scope';
-  if (false) {
- let  i ="block scope";
-   console.log(i);
-  }
-
-  console.log(i);
-
-  }
-  checkScope();
-*/
+editInPlace();
