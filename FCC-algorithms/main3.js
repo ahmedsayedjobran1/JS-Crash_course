@@ -1,13 +1,10 @@
-const HIGH_TEMPERATURES = {
-    yesterday: 75,
-    today: 77,
-    tomorrow: 80
-};
+function removeFirstTwo(list) {
+    // Only change code below this line
+    const [, , ...shorterList] = list; // Change this line
+    // Only change code above this line
+    return shorterList;
+}
 
-// Only change code below this line
+const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const sourceWithoutFirstTwo = removeFirstTwo(source);
 
-const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
-
-// const {hightToday,highTomorrow}=HIGH_TEMPERATURES;
-console.log(highToday)
-// Only change code above this line
