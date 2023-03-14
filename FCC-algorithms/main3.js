@@ -3,5 +3,11 @@ const HIGH_TEMPERATURES = {
     today: 77,
     tomorrow: 80
 };
-const { yesterday, today, tomorrow } = HIGH_TEMPERATURES
-console.log(tomorrow);
+
+// Only change code below this line
+
+const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
+
+// const {hightToday,highTomorrow}=HIGH_TEMPERATURES;
+console.log(highToday)
+// Only change code above this line
