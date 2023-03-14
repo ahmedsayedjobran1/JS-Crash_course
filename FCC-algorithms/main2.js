@@ -1,10 +1,6 @@
-const sum = (...args) => {
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
 
-    let sum1 = 5;
-    for (let i = 0; i < args.length; i++) {
-        sum1 += args[i];
-    }
-    return sum1
-}
+arr2 = ([...arr1]) // Change this line
 
-console.log(`your answer is: ${sum(1, 2, 7-5)}`);
+console.log(arr2);
