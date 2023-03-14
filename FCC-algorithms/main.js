@@ -1,11 +1,11 @@
 function checkScope() {
     let i = 'function scope';
-    if (false) {
+    if (true) {
         let i = "block scope";
-        console.log(i);
+        console.log("block scope: ",i);
     }
 
-    console.log(i);
+    console.log("function scope :",i);
 
 }
 checkScope();
