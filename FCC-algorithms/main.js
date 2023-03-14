@@ -1,16 +1,7 @@
-function freezeObj() {
-    const MATH_CONSTANTS = {
-        PI: 3.14
-    };
-    // Only change code below this line
-    // Object.freeze(MATH_CONSTANTS);
+// var magic = function() {
+//   return new Date();
+// };
 
-    // Only change code above this line
-    try {
-        MATH_CONSTANTS.PI = 99;
-    } catch (ex) {
-        console.log(ex);
-    }
-    console.log(MATH_CONSTANTS.PI);
+const magic = () => {
+    return new Date();
 }
-const PI = freezeObj();
